@@ -1,87 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Tailwind CSS</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  </head>
 
-<body class="bg-gray-50">
+  <body class="bg-gray-50">
+    <header
+      class="bg-gray-800 p-4 text-white flex justify-between items-center"
+    >
+      <h1>ClinicaApp</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="../index.html" class="text-white">Home</a></li>
+          <li><a href="about-us.html" class="text-white">About</a></li>
+          <li><a href="contact.html" class="text-white">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <!-- Sección About Us -->
     <section class="py-16 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto">
-            <!-- Título -->
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                    Sobre Nosotros
-                </h2>
-                <p class="mt-4 text-xl text-gray-600">
-                    Conoce más sobre nuestro equipo y nuestra misión.
-                </p>
-            </div>
-
-            <!-- Contenido: Grid con imagen y texto -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <!-- Imagen (izquierda) -->
-                <div class="order-2 md:order-1">
-                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-                        alt="Equipo trabajando" class="rounded-lg shadow-xl w-full h-auto object-cover">
-                </div>
-
-                <!-- Texto (derecha) -->
-                <div class="order-1 md:order-2">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">
-                        Nuestra Historia
-                    </h3>
-                    <p class="text-gray-600 mb-6">
-                        Fundada en 2020, nuestra empresa nació con la misión de simplificar la tecnología para todos.
-                        Desde entonces, hemos crecido hasta convertirnos en un equipo de más de 50 profesionales
-                        apasionados por la innovación.
-                    </p>
-
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">
-                        Nuestros Valores
-                    </h3>
-                    <ul class="space-y-3 text-gray-600">
-                        <li class="flex items-start">
-                            <svg class="h-6 w-6 text-indigo-600 mr-2" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7" />
-                            </svg>
-                            <span>Innovación constante</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="h-6 w-6 text-indigo-600 mr-2" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7" />
-                            </svg>
-                            <span>Transparencia en cada paso</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="h-6 w-6 text-indigo-600 mr-2" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7" />
-                            </svg>
-                            <span>Compromiso con la calidad</span>
-                        </li>
-                    </ul>
-
-                    <!-- Botón opcional -->
-                    <div class="mt-8">
-                        <a href="#"
-                            class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
-                            Conoce al equipo
-                        </a>
-                    </div>
-                </div>
-            </div>
+      <div class="max-w-7xl mx-auto">
+        <!-- Título -->
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            Sobre Nosotros
+          </h2>
+          <p class="mt-4 text-xl text-gray-600">
+            Conoce más sobre nuestro equipo y nuestra misión.
+          </p>
         </div>
-    </section>
-</body>
 
+        <!-- Contenido: Grid con imagen y texto -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <!-- Imagen (izquierda) -->
+          <div class="order-2 md:order-1">
+            <img
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Equipo trabajando"
+              class="rounded-lg shadow-xl w-full h-auto object-cover"
+            />
+          </div>
+
+          <!-- Texto (derecha) -->
+          <div class="order-1 md:order-2">
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">
+              Nuestra Historia
+            </h3>
+            <p class="text-gray-600 mb-6">
+              Fundada en 2020, nuestra empresa nació con la misión de
+              simplificar la tecnología para todos. Desde entonces, hemos
+              crecido hasta convertirnos en un equipo de más de 50 profesionales
+              apasionados por la innovación.
+            </p>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">
+              Nuestros Valores
+            </h3>
+            <ul class="space-y-3 text-gray-600">
+              <li class="flex items-start">
+                <svg
+                  class="h-6 w-6 text-indigo-600 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span>Innovación constante</span>
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="h-6 w-6 text-indigo-600 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span>Transparencia en cada paso</span>
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="h-6 w-6 text-indigo-600 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span>Compromiso con la calidad</span>
+              </li>
+            </ul>
+
+            <!-- Botón opcional -->
+            <div class="mt-8">
+              <a
+                href="#"
+                class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+              >
+                Conoce al equipo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
